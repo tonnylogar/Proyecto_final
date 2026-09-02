@@ -7,15 +7,19 @@
 
 }
 /*<--! el navbar no se esta alineando al centro buscar el error-->*/
-navbarnav {
+.navbarnav {
     justify-content: center;
 }
 nav {
     background-color: azure;
     padding: 1rem;
     justify-content: space-around;
+    align-items: center;
     
 
+}
+.navbar .container-fluid {
+  justify-content: center;
 }
 nav ul {
     list-style-type: none;
@@ -24,9 +28,7 @@ nav ul {
     display: flex;
     justify-content: space-around;
 }
-.navbar .container-fluid {
-  justify-content: center;
-}
+
 nav ul li {
     display: inline;
 }
@@ -292,3 +294,84 @@ header h1 span {
     text-align: left;
   }
 }
+
+/*<!-- la recomendacion del dany jalo al 100-->*/
+@media (min-width: 992px) {
+  .navbar-collapse {
+    display: flex;
+    justify-content: center;
+  }
+}
+:root {
+    --dental-primary: #0d6efd;
+    --dental-dark: #0a2540;
+  }
+ 
+  .hero-carousel {
+    position: relative;
+  }
+ 
+  .hero-carousel .carousel-item {
+    height: 90vh;
+    min-height: 520px;
+    background-size: cover;
+    background-position: center;
+  }
+ 
+  .hero-carousel .carousel-item::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(10,37,64,.55) 0%, rgba(10,37,64,.75) 100%);
+  }
+ 
+  .hero-overlay-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+  }
+ 
+  .hero-overlay-content h1 {
+    font-weight: 700;
+    text-shadow: 0 2px 10px rgba(0,0,0,.35);
+  }
+ 
+  .hero-overlay-content p.lead {
+    text-shadow: 0 1px 6px rgba(0,0,0,.35);
+  }
+ 
+  .hero-carousel .carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 6px;
+  }
+ 
+  .hero-carousel .carousel-control-prev,
+  .hero-carousel .carousel-control-next {
+    width: 5%;
+  }
+ 
+  .btn-hero-primary {
+    background-color: var(--dental-primary);
+    border: none;
+    padding: .75rem 1.75rem;
+    font-weight: 600;
+  }
+ 
+  .btn-hero-outline {
+    border: 2px solid #fff;
+    color: #fff;
+    padding: .75rem 1.75rem;
+    font-weight: 600;
+  }
+ 
+  .btn-hero-outline:hover {
+    background-color: #fff;
+    color: var(--dental-dark);
+  }

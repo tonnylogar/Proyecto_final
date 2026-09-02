@@ -257,7 +257,247 @@
       </div>
     </div>
     <!-- poner un Hero chilo con carrusel con fotos de antes y despues de las fotos que me mandaron-->
+    <header class="hero-carousel">
+      <div
+        id="heroCarousel"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#heroCarousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#heroCarousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#heroCarousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
 
+        <div class="carousel-inner">
+          <div
+            class="carousel-item active"
+            style="
+              background-image: url(&quot;https://images.unsplash.com/photo-1606811841689-23dfddce3e95?q=80&w=1600&auto=format&fit=crop&quot;);
+            "
+          ></div>
+          <div
+            class="carousel-item"
+            style="
+              background-image: url(&quot;https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=1600&auto=format&fit=crop&quot;);
+            "
+          ></div>
+          <div
+            class="carousel-item"
+            style="
+              background-image: url(&quot;https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?q=80&w=1600&auto=format&fit=crop&quot;);
+            "
+          ></div>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#heroCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#heroCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+
+        <div class="hero-overlay-content">
+          <div class="container text-center text-white">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <h1 class="display-4 mb-3">Tu sonrisa, nuestra prioridad</h1>
+                <p class="lead mb-4 fs-4">
+                  Clínica Dental López García — atención integral con tecnología
+                  de vanguardia y un equipo dedicado a tu bienestar dental.
+                </p>
+                <div
+                  class="d-flex flex-column flex-sm-row justify-content-center gap-3"
+                >
+                  <a
+                    href="#agendar-cita"
+                    class="btn btn-hero-primary btn-lg rounded-pill"
+                  >
+                    <i class="bi bi-calendar-check me-2"></i>Agendar cita
+                  </a>
+                  <a
+                    href="#ubicacion"
+                    class="btn btn-hero-outline btn-lg rounded-pill"
+                  >
+                    <i class="bi bi-geo-alt me-2"></i>Cómo llegar
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- footer siguiendo lo que dijo el dany por whatsapp-->
+
+    <footer class="site-footer pt-5">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6">
+            <div class="d-flex align-items-center mb-3">
+              <span class="brand-icon me-2"
+                ><i class="bi bi-emoji-smile"></i
+              ></span>
+              <h5 class="mb-0">Clínica Dental<br />López García</h5>
+            </div>
+            <p class="mb-4">
+              Más de 15 años cuidando la sonrisa de tu familia con atención
+              personalizada y tecnología de vanguardia.
+            </p>
+            <div class="d-flex gap-2">
+              <a href="#" class="social-icon" aria-label="Facebook"
+                ><i class="bi bi-facebook"></i
+              ></a>
+              <a href="#" class="social-icon" aria-label="Instagram"
+                ><i class="bi bi-instagram"></i
+              ></a>
+              <a href="#" class="social-icon" aria-label="WhatsApp"
+                ><i class="bi bi-whatsapp"></i
+              ></a>
+              <a href="#" class="social-icon" aria-label="TikTok"
+                ><i class="bi bi-tiktok"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6">
+            <h6 class="mb-3">Enlaces</h6>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#"
+                  ><i class="bi bi-chevron-right small me-1"></i>Inicio</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="bi bi-chevron-right small me-1"></i>Servicios</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="bi bi-chevron-right small me-1"></i>Nosotros</a
+                >
+              </li>
+              <li>
+                <a href="#agendar-cita"
+                  ><i class="bi bi-chevron-right small me-1"></i>Agendar cita</a
+                >
+              </li>
+              <li>
+                <a href="#ubicacion"
+                  ><i class="bi bi-chevron-right small me-1"></i>Ubicación</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <h6 class="mb-3">Servicios</h6>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#"
+                  ><i class="bi bi-chevron-right small me-1"></i>Odontología
+                  general</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="bi bi-chevron-right small me-1"></i>Ortodoncia</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="bi bi-chevron-right small me-1"></i>Endodoncia</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="bi bi-chevron-right small me-1"></i>Estética
+                  dental</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="bi bi-chevron-right small me-1"></i>Rayos X (RX)</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <h6 class="mb-3">Contacto</h6>
+            <ul class="list-unstyled">
+              <li class="contact-item">
+                <i class="bi bi-geo-alt-fill me-2"></i>Calle 600, Block 623,
+                Col. Centro, SIRM
+              </li>
+              <li class="contact-item">
+                <i class="bi bi-telephone-fill me-2"></i>(667) 4979187
+              </li>
+              <li class="contact-item">
+                <i class="bi bi-telephone-fill me-2"></i>(644) 9979395
+              </li>
+              <li class="contact-item">
+                <i class="bi bi-envelope-fill me-2"></i>Luiislogar@hotmail.com
+              </li>
+              <li class="contact-item">
+                <i class="bi bi-envelope-fill me-2"></i>jefagar4@gmail.com
+              </li>
+              <li class="contact-item">
+                <i class="bi bi-clock-fill me-2"></i>Lun - Vie: 9:00 - 19:00
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <hr class="footer-divider mt-4" />
+      </div>
+
+      <div class="footer-bottom py-3">
+        <div
+          class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-2 text-center text-md-start"
+        >
+          <span
+            >&copy; 2026 Clínica Dental López García. Todos los derechos
+            reservados.</span
+          >
+          <div class="d-flex gap-3">
+            <a href="#">Aviso de privacidad</a>
+            <a href="#">Términos y condiciones</a>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
