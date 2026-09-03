@@ -16,183 +16,221 @@
   <body>
     <header class="text-center py-3">
       <h1><span style="color: #037bc0">Clínica Dental López García</span></h1>
-    </header>
+      <div class="logoduiynavbar">
+        <img class="Logodui" src="logodui.png" alt="Logo" />
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light px-3">
-      <div class="container-fluid">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Abrir menú de navegación"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light px-3">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Abrir menú de navegación"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <!-- CLINICA: ubicación -->
-            <li class="nav-item">
-              <button
-                class="btn btn-primary"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseClinica"
-                aria-expanded="false"
-                aria-controls="collapseClinica"
-              >
-                Clínica
-              </button>
-            </li>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <!-- CLINICA: ubicación -->
+                <li class="nav-item">
+                  <button
+                    class="btn btn-primary"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseClinica"
+                    aria-expanded="false"
+                    aria-controls="collapseClinica"
+                  >
+                    Clínica
+                  </button>
+                </li>
 
-            <!-- TRATAMIENTOS dropdown con submenus parece que ahora 
+                <!-- TRATAMIENTOS dropdown con submenus parece que ahora 
              funciona moverle css pq el boton queda mas abajo que los demas elementos de navbar -->
 
-            <!--
+                <!--
             tratamientos clinicos: Diagnostico, resinas dentales, limpieza dental, protesis fija, 
             removible, periodoncia, ortodoncia, extracciones, endodoncia, ortopedia maxilar
             tratamientos esteticos:gingivectomia, blanqueamientos, diseño de sonrisa, resinas inyectadas 
             tratamientos infantiles: ulectomia, pulpectomia, pulpotomia, mantenedores de espacio, trampa lingual, -->
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                <button
-                  class="btn btn-primary"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseTratamientos"
-                  aria-expanded="false"
-                  aria-controls="collapseTratamientos"
-                >
-                  Tratamientos
-                </button>
-              </a>
-              <ul
-                class="dropdown-menu multi-level"
-                role="menu"
-                aria-labelledby="dropdownMenu"
-              >
-                <li class="dropdown-submenu">
-                  <a tabindex="-1" class="dropdown-item" href="#"
-                    >Tratamientos clínicos</a
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
                   >
-                  <ul class="dropdown-menu">
-                    <!-- mas adelante poner links o tarjetas que explican el procedimiento con fotos o videos -->
-                    <li><a class="dropdown-item" href="#">Diagnóstico</a></li>
-                    <li>
-                      <a class="dropdown-item" href="#">Limpieza dental</a>
+                    <button
+                      class="btn btn-primary"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTratamientos"
+                      aria-expanded="false"
+                      aria-controls="collapseTratamientos"
+                    >
+                      Tratamientos
+                    </button>
+                  </a>
+                  <ul
+                    class="dropdown-menu multi-level"
+                    role="menu"
+                    aria-labelledby="dropdownMenu"
+                  >
+                    <li class="dropdown-submenu">
+                      <a tabindex="-1" class="dropdown-item" href="#"
+                        >Tratamientos clínicos</a
+                      >
+                      <ul class="dropdown-menu">
+                        <!-- mas adelante poner links o tarjetas que explican el procedimiento con fotos o videos -->
+                        <li>
+                          <a class="dropdown-item" href="#">Diagnóstico</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">Limpieza dental</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">Resinas dentales</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">Prótesis fija</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"
+                            >Prótesis removible</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">Periodoncia</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">Ortodoncia</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">Extracciones</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">Endodoncia</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"
+                            >Ortopedia maxilar</a
+                          >
+                        </li>
+                      </ul>
                     </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Resinas dentales</a>
+
+                    <li><hr class="dropdown-divider" /></li>
+
+                    <li class="dropdown-submenu">
+                      <a tabindex="-1" class="dropdown-item" href="#"
+                        >Tratamientos estéticos</a
+                      >
+                      <ul class="dropdown-menu">
+                        <li>
+                          <a class="dropdown-item" href="#">Blanqueamientos</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"
+                            >Diseño de sonrisa</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"
+                            >Resinas inyectadas</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">Gingivectomía</a>
+                        </li>
+                      </ul>
                     </li>
-                    <li><a class="dropdown-item" href="#">Prótesis fija</a></li>
-                    <li>
-                      <a class="dropdown-item" href="#">Prótesis removible</a>
-                    </li>
-                    <li><a class="dropdown-item" href="#">Periodoncia</a></li>
-                    <li><a class="dropdown-item" href="#">Ortodoncia</a></li>
-                    <li><a class="dropdown-item" href="#">Extracciones</a></li>
-                    <li><a class="dropdown-item" href="#">Endodoncia</a></li>
-                    <li>
-                      <a class="dropdown-item" href="#">Ortopedia maxilar</a>
+
+                    <li><hr class="dropdown-divider" /></li>
+
+                    <li class="dropdown-submenu">
+                      <a tabindex="-1" class="dropdown-item" href="#"
+                        >Tratamientos infantiles</a
+                      >
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Ortopedia</a></li>
+                        <li>
+                          <a class="dropdown-item" href="#"
+                            >Limpieza dental para niños</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">Extracciones</a>
+                        </li>
+                        <li><a class="dropdown-item" href="#">Ulectomía</a></li>
+                        <li>
+                          <a class="dropdown-item" href="#">Pulpectomía</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">Pulpotomía</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"
+                            >Mantenedores de espacio</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">Trampa lingual</a>
+                        </li>
+                      </ul>
                     </li>
                   </ul>
                 </li>
 
-                <li><hr class="dropdown-divider" /></li>
-
-                <li class="dropdown-submenu">
-                  <a tabindex="-1" class="dropdown-item" href="#"
-                    >Tratamientos estéticos</a
+                <!-- PACIENTES agenda de cita intento copiado del boton anterior para que colapse pacientes-->
+                <li class="nav-item">
+                  <button
+                    class="btn btn-primary"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapsePacientes"
+                    aria-expanded="false"
+                    aria-controls="collapsePacientes"
                   >
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="#">Blanqueamientos</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Diseño de sonrisa</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Resinas inyectadas</a>
-                    </li>
-                    <li><a class="dropdown-item" href="#">Gingivectomía</a></li>
-                  </ul>
+                    Pacientes
+                  </button>
                 </li>
 
-                <li><hr class="dropdown-divider" /></li>
-
-                <li class="dropdown-submenu">
-                  <a tabindex="-1" class="dropdown-item" href="#"
-                    >Tratamientos infantiles</a
+                <li class="nav-item">
+                  <button
+                    class="btn btn-primary"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseRX"
+                    aria-expanded="false"
+                    aria-controls="collapseRX"
                   >
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Ortopedia</a></li>
-                    <li>
-                      <a class="dropdown-item" href="#"
-                        >Limpieza dental para niños</a
-                      >
-                    </li>
-                    <li><a class="dropdown-item" href="#">Extracciones</a></li>
-                    <li><a class="dropdown-item" href="#">Ulectomía</a></li>
-                    <li><a class="dropdown-item" href="#">Pulpectomía</a></li>
-                    <li><a class="dropdown-item" href="#">Pulpotomía</a></li>
-                    <li>
-                      <a class="dropdown-item" href="#"
-                        >Mantenedores de espacio</a
-                      >
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Trampa lingual</a>
-                    </li>
-                  </ul>
+                    RX y Estudios
+                  </button>
+                </li>
+
+                <!-- en nosotros poner dos tarjetas con la info de luis y faby con # de tel/email/RS/ETC/cedula
+                 dany dijo que me aventara las tarjetas y que investagara lo del modal del modal de bootstrap-->
+                <li class="nav-item">
+                  <button
+                    class="btn btn-primary"
+                    type="button"
+                    data-bs-toggle="modal"
+                    data-bs-target="#nosotrosModal"
+                  >
+                    Nosotros
+                  </button>
                 </li>
               </ul>
-            </li>
-
-            <!-- PACIENTES agenda de cita intento copiado del boton anterior para que colapse pacientes-->
-            <li class="nav-item">
-              <button
-                class="btn btn-primary"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapsePacientes"
-                aria-expanded="false"
-                aria-controls="collapsePacientes"
-              >
-                Pacientes
-              </button>
-            </li>
-
-            <li class="nav-item">
-              <button
-                class="btn btn-primary"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseRX"
-                aria-expanded="false"
-                aria-controls="collapseRX"
-              >
-                RX y Estudios
-              </button>
-            </li>
-
-            <!-- en nosotros poner dos tarjetas con la info de luis y faby con # de tel/email/RS/ETC/cedula-->
-            <li class="nav-item">
-              <button class="btn btn-primary" type="button">Nosotros</button>
-            </li>
-          </ul>
-        </div>
+            </div>
+          </div>
+        </nav>
       </div>
-    </nav>
-
+    </header>
     <!-- Panel de la ubicación de la clínica nomas voy a copiar esto para ponerlo en lo de rx y poner el link -->
     <div class="collapse" id="collapseClinica">
       <div class="card card-body mx-3 my-2" style="max-width: 420px">
@@ -256,6 +294,97 @@
         </iframe>
       </div>
     </div>
+    <div
+      class="modal fade"
+      id="nosotrosModal"
+      tabindex="-1"
+      aria-labelledby="nosotrosModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="nosotrosModalLabel">
+              Conoce a nuestro equipo
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Cerrar"
+            ></button>
+          </div>
+
+          <div class="modal-body p-4">
+            <div class="row g-4">
+              <!-- Tarjeta de la faby -->
+              <div class="col-md-6">
+                <div class="card profile-card">
+                  <img
+                    src="fabiolagarcia.JPG"
+                    class="profile-photo"
+                    alt="Dra. Fabiola García"
+                  />
+                  <div class="profile-body">
+                    <h5>Dra. Jessica Fabiola García Félix</h5>
+                    <div class="profile-role">
+                      Ortodoncia y Ortopedia maxilar
+                    </div>
+                    <div class="profile-detail">
+                      <i class="bi bi-mortarboard-fill"></i>
+                      <span
+                        >Universidad Autónoma de Sinaloa — Especialidad en
+                        Ortodoncia y Ortopedia maxilar</span
+                      >
+                    </div>
+                    <div class="profile-detail">
+                      <i class="bi bi-telephone-fill"></i>
+                      <span>(667) 497 9187</span>
+                    </div>
+                    <div class="profile-detail">
+                      <i class="bi bi-envelope-fill"></i>
+                      <span>jefagar4@gmail.com</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Tarjeta del luis-->
+              <div class="col-md-6">
+                <div class="card profile-card">
+                  <img
+                    src="Luislopez.JPG"
+                    class="profile-photo"
+                    alt="Dr. Luis Lopez"
+                  />
+                  <div class="profile-body">
+                    <h5>Dr. Luis Alberto Lopez Garcia</h5>
+                    <div class="profile-role">
+                      Odontología General y Estética Dental
+                    </div>
+                    <div class="profile-detail">
+                      <i class="bi bi-mortarboard-fill"></i>
+                      <span
+                        >Universidad Autónoma de Sinaloa — Cirujano
+                        Dentista</span
+                      >
+                    </div>
+                    <div class="profile-detail">
+                      <i class="bi bi-telephone-fill"></i>
+                      <span>(644) 997 9395</span>
+                    </div>
+                    <div class="profile-detail">
+                      <i class="bi bi-envelope-fill"></i>
+                      <span>Luiislogar@hotmail.com</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- poner un Hero chilo con carrusel con fotos de antes y despues de las fotos que me mandaron-->
     <header class="hero-carousel">
       <div
@@ -285,7 +414,7 @@
             aria-label="Slide 3"
           ></button>
         </div>
-
+        <!--backtic se cambia a &quot-->
         <div class="carousel-inner">
           <div
             class="carousel-item active"
@@ -295,15 +424,11 @@
           ></div>
           <div
             class="carousel-item"
-            style="
-              background-image: url(&quot;https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=1600&auto=format&fit=crop&quot;);
-            "
+            style="background-image: url(&quot;img/luisenlaclinica.jpg&quot;)"
           ></div>
           <div
             class="carousel-item"
-            style="
-              background-image: url(&quot;https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?q=80&w=1600&auto=format&fit=crop&quot;);
-            "
+            style="background-image: url(&quot;img/fabyenlaclinica.jpg&quot;)"
           ></div>
         </div>
 
@@ -459,10 +584,10 @@
                 Col. Centro, SIRM
               </li>
               <li class="contact-item">
-                <i class="bi bi-telephone-fill me-2"></i>(667) 4979187
+                <i class="bi bi-telephone-fill me-2"></i>(667) 497 9187
               </li>
               <li class="contact-item">
-                <i class="bi bi-telephone-fill me-2"></i>(644) 9979395
+                <i class="bi bi-telephone-fill me-2"></i>(644) 997 9395
               </li>
               <li class="contact-item">
                 <i class="bi bi-envelope-fill me-2"></i>Luiislogar@hotmail.com

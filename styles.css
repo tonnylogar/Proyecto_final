@@ -6,7 +6,19 @@
 
 
 }
+img {
+  width: 300px;
+
+}
+
 /*<--! el navbar no se esta alineando al centro buscar el error-->*/
+.logoduiynavbar {
+  background-color: var(--clr-bg-nav);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
 .navbarnav {
     justify-content: center;
 }
@@ -374,4 +386,69 @@ header h1 span {
   .btn-hero-outline:hover {
     background-color: #fff;
     color: var(--dental-dark);
+  }
+  #nosotrosModal .modal-content {
+    border: none;
+    border-radius: 1rem;
+    overflow: hidden;
+  }
+ 
+  #nosotrosModal .modal-header {
+    background-color: var(--dental-dark);
+    color: #fff;
+    border-bottom: none;
+  }
+ 
+  #nosotrosModal .modal-header .btn-close {
+    filter: invert(1) grayscale(100%) brightness(200%);
+  }
+ 
+  .profile-card {
+    border: none;
+    border-radius: .75rem;
+    box-shadow: 0 4px 18px rgba(0,0,0,.08);
+    height: 100%;
+    transition: transform .2s ease, box-shadow .2s ease;
+  }
+ 
+  .profile-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 24px rgba(0,0,0,.12);
+  }
+ 
+  .profile-card .profile-photo {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+  }
+ 
+  .profile-card .profile-body {
+    padding: 1.25rem;
+  }
+ 
+  .profile-card h5 {
+    color: var(--dental-dark);
+    font-weight: 700;
+    margin-bottom: .15rem;
+  }
+ 
+  .profile-card .profile-role {
+    color: var(--dental-primary);
+    font-weight: 600;
+    font-size: .9rem;
+    margin-bottom: .85rem;
+  }
+ 
+  .profile-card .profile-detail {
+    font-size: .9rem;
+    color: #495057;
+    margin-bottom: .5rem;
+    display: flex;
+    align-items: flex-start;
+    gap: .5rem;
+  }
+ 
+  .profile-card .profile-detail i {
+    color: var(--dental-primary);
+    margin-top: 2px;
   }
